@@ -1,5 +1,5 @@
 console.group("task 1");
-const list = document.querySelectorAll(`#categories ul`).length;
+const list = document.querySelectorAll('#categories > li.item').length;
 console.log(`Number of categories: ${list}`);
 
 const items = document.querySelectorAll(`#categories > li.item`);

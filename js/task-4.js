@@ -8,8 +8,8 @@ alert('All form fields must be filled in');
 return;
 } else {
 const newData = {
-Email: email,
-Password: pass,
+email: email,
+password: pass,
 };
 console.log(newData);
 }
